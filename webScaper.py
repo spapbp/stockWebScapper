@@ -64,4 +64,4 @@ for cell in cells:
             print(name)
             concat = name + '\n' + nums
             print(nums)
-            #alert.email_alert("4042422725@txt.att.net", "IN STOCK", concat)
+            #alert.email_alert("Your_Email", "IN STOCK", concat)
