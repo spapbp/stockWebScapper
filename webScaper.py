@@ -5,7 +5,6 @@ from urllib.request import urlopen as uReq
 from bs4 import BeautifulSoup as soup
 
 my_url = "https://www.newegg.com/p/pl?d=3070+graphics&cm_sp=KeywordRelated-_-3070-_-3070+graphics-_-INFOCARD&N=601357282%20100007709"
-#my_url = "https://www.amazon.com/AMD-Ryzen-5800X-16-Thread-Processor/dp/B0815XFSGK"
 
 uClient = uReq(my_url)
 page_html = uClient.read()
